@@ -1,0 +1,68 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: rgb(251, 255, 0);
+  /* background: #efeee7; */
+  background-image: url(../images/grey-lines-yellow-streaks-stripes-1920x1080-c2-ffff00-696969-l2-94-132-a-30-f-1.svg);
+}
+
+header {
+    background: rgb(251, 255, 0);
+    height: 67px;
+    padding-left: 25%;
+    padding-right: 25%;
+
+}
+
+nav {
+    padding-right: 0 0 0 20px;
+}
+
+h1 {
+    float: left;
+    margin: 0 0 0 20px;
+    padding: 20px;
+    font-size: 28px;
+    color: #eee;
+    text-align: center;
+    background: #333;
+}
+
+ul {
+    float: right;
+    margin: 0;
+    padding: 20px;
+}
+
+li {
+    float: left;
+    margin: 0px 20px 0px 20px;
+    list-style: none;
+}
+
+a {
+    color: rgb(65, 65, 65);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 0, 255);
+    
+}
+
+#main-bio {
+    margin-left: 26.5%;
+    margin-right: 26.5%;
+    margin-top: 3%;
+    padding: 1px 20px 20px 20px;
+    background: rgb(65, 65, 65);
+}
+
+#bio-image {
+    float: left;
+    margin-right: 25px;
+
+}
