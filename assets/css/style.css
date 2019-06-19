@@ -14,7 +14,9 @@ header {
     height: 67px;
     padding-left: 20%;
     padding-right: 20%;
-    
+    border-style: solid;
+    border-width: 1px;
+    border-color: #333; 
 
 }
 
