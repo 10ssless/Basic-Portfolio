@@ -6,7 +6,7 @@ body {
   line-height: 150%;
   color: rgb(255, 255, 0);
   /* background: #efeee7; */
-  background-image: url(../images/grey-lines-yellow-streaks-stripes-1920x1080-c2-ffff00-696969-l2-94-132-a-30-f-1.svg);
+  background-image: url(../images/yellow-stripes.svg);
 }
 
 header {
@@ -30,6 +30,7 @@ h1 {
     color: #eee;
     text-align: center;
     background: #333;
+    /* box-shadow: 3px 3px 5px rgb(39, 39, 39); */
 }
 
 ul {
@@ -52,8 +53,9 @@ a {
 }
 
 a:hover {
-    background: rgb(0, 0, 255);
+    background: blue;
     color: white;
+    box-shadow: 3px 3px 5px rgb(39, 39, 39);
     
 }
 
@@ -108,4 +110,31 @@ button:hover {
     background: blue;
     color: white;
     box-shadow: 5px 5px 5px rgb(39, 39, 39);
+}
+
+.port-item {
+    position: relative;
+    margin: 10px;
+    display: inline;
+}
+
+.port-image {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.port-label {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    background: #333;
+    padding: 5px 15px 5px 15px;
+}
+
+.port-label:hover {
+    background: blue;
+    color: white;
+    box-shadow: 3px 3px 5px rgb(39, 39, 39);
 }
