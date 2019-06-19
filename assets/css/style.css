@@ -4,16 +4,17 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
   line-height: 150%;
-  color: rgb(251, 255, 0);
+  color: rgb(255, 255, 0);
   /* background: #efeee7; */
   background-image: url(../images/grey-lines-yellow-streaks-stripes-1920x1080-c2-ffff00-696969-l2-94-132-a-30-f-1.svg);
 }
 
 header {
-    background: rgb(251, 255, 0);
+    background: rgb(255, 255, 0);
     height: 67px;
     padding-left: 25%;
     padding-right: 25%;
+    
 
 }
 
@@ -39,18 +40,29 @@ ul {
 
 li {
     float: left;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 0px 0px 10px;
     list-style: none;
 }
 
 a {
     color: rgb(65, 65, 65);
     text-decoration: none;
+    padding: 20px;
+    
 }
 
 a:hover {
-    color: rgb(0, 0, 255);
+    background: rgb(0, 0, 255);
+    color: white;
     
+}
+
+h2 {
+    padding-bottom: 30px;
+    border-bottom-style: outset;
+    border-bottom-width: 2px;
+    border-bottom-color: white;
+
 }
 
 #main-bio {
@@ -59,10 +71,41 @@ a:hover {
     margin-top: 3%;
     padding: 1px 20px 20px 20px;
     background: rgb(65, 65, 65);
+    box-shadow: 10px 10px 5px rgb(39, 39, 39);
 }
 
 #bio-image {
     float: left;
     margin-right: 25px;
 
+}
+
+.input-label {
+    margin-bottom: 0;
+}
+
+input {
+    width: 99%;
+}
+
+#input-msg {
+    height: 200px;
+}
+
+#input-label-msg {
+    margin-bottom: 10px;
+}
+
+button {
+    text-decoration: none;
+    background: yellow;
+    padding: 10px 12px 10px 12px;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+button:hover {
+    background: blue;
+    color: white;
+    box-shadow: 5px 5px 5px rgb(39, 39, 39);
 }
