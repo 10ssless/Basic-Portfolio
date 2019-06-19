@@ -146,3 +146,11 @@ button:hover {
     border-right-width: 1px;
     border-right-color: rgb(83, 83, 83);
 }
+
+footer {
+    position: absolute;
+    bottom: 1%;
+    right: 44%;
+    color: black;
+    text-align: center;
+}
